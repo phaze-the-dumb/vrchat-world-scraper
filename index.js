@@ -16,6 +16,4 @@ let find = async ( worldID, scraper ) => {
     return scrapers[scraper].find(worldID);
 }
 
-find("wrld_05147ea0-fcb5-4a21-84d8-4174a30c2650", 0).then(console.log);
-
 module.exports = { find };
